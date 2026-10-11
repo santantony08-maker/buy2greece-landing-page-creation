@@ -38,7 +38,7 @@ function Button({ children, variant = 'primary', href = '#valuation-form' }: { c
 }
 
 function Logo() {
-  return <a href="#top" className="flex items-center" aria-label="Buy2Greece αρχική"><img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buy2greece-ePnAeabGZ4s6XADDyncdAcd0CR0oRy.png" alt="Buy2Greece — Greek Property Promotion" className="h-12 w-auto object-contain sm:h-14" /></a>
+  return <a href="#top" className="flex items-center" aria-label="Buy2Greece αρχική"><img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buy2greece-ePnAeabGZ4s6XADDyncdAcd0CR0oRy.png" alt="Buy2Greece — Greek Property Promotion" className="h-12 w-auto object-contain mix-blend-multiply sm:h-14" /></a>
 }
 
 function ValuationForm() {
