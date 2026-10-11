@@ -39,7 +39,7 @@ function Button({ children, variant = 'primary', href = '#valuation-form' }: { c
 }
 
 function Logo() {
-  return <a href="#top" className="flex items-center gap-2.5" aria-label="Buy2Greece αρχική"><span className="relative flex size-9 items-center justify-center rounded-xl border border-white/25 bg-white/10 text-[#82b341] shadow-lg backdrop-blur-sm"><Sprout aria-hidden="true" size={20} strokeWidth={1.8} /></span><span className="flex flex-col leading-none"><span className="font-sans text-[1.45rem] font-black tracking-[-.08em] text-white">BUY<span className="text-[#82b341]">2</span></span><span className="mt-0.5 font-sans text-[1.45rem] font-black tracking-[-.08em] text-white">Greece</span><span className="mt-1 text-[7px] font-semibold uppercase tracking-[.16em] text-white/70">Greek Property Promotion</span></span></a>
+  return <a href="#top" className="flex items-center gap-2.5" aria-label="Buy2Greece αρχική"><span className="relative flex size-9 items-center justify-center text-[#82b341]"><Sprout aria-hidden="true" size={20} strokeWidth={1.8} /></span><span className="flex flex-col leading-none"><span className="font-sans text-[1.45rem] font-black tracking-[-.08em] text-white">BUY<span className="text-[#82b341]">2</span></span><span className="mt-0.5 font-sans text-[1.45rem] font-black tracking-[-.08em] text-white">Greece</span><span className="mt-1 text-[7px] font-semibold uppercase tracking-[.16em] text-white/70">Greek Property Promotion</span></span></a>
 }
 
 function ValuationForm() {
