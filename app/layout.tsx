@@ -4,7 +4,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 const manrope = Manrope({ subsets: ['latin', 'greek'], variable: '--font-manrope' })
-const newsreader = Newsreader({ subsets: ['latin', 'greek'], variable: '--font-newsreader' })
+const newsreader = Newsreader({ subsets: ['latin'], variable: '--font-newsreader' })
 
 export const metadata: Metadata = {
   title: 'Εκτίμηση Ακινήτου | Buy2Greece',
